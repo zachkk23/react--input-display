@@ -10,13 +10,13 @@ export default function App() {
   }
     const handleButtonClick = () => {
    if(inputVal === ""){
-    setOutput("Enter a valid location")
+    setOutput("Enter a valid Input")
    }else {
     setOutput(inputVal)
     }};
   return (
     <div className="App">
-      <p className="weatherTitle">Weather App</p>
+      <p className="weatherTitle">Input Display</p>
       <input 
       type="text" 
       value={inputVal} 
